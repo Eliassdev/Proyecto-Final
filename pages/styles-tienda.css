@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    
+}
+html{
+
+    font-size: 62.5%;
+    margin: 0;
+    
+}
+body{
+    margin: 1rem;
+    padding: 1rem;
+}
+#contenedor-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    align-items: center;
+    gap: 2rem;
+    
+
+}
+#contenedor-carrito{
+    border: solid 1em red;
+
+    width: 100%;
+
+
+}
+.imagen_producto{
+    width: 100%;
+}
+.img_carrito{
+    width: 150px;
+    height: 150px;
+}
+.title{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+    color: coral;
+    margin-bottom: 2rem;
+
+}
+.subtitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    color: rgb(115, 115, 220);
+
+
+}
+.titulo-lista-carrito{
+    margin-top: 5rem;
+    text-align: center;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+
+
+.producto{
+    
+    margin : 5rem;
+    margin-right: 30rem;
+    padding : 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 2rem 6rem 3rem 3rem rgb(0, 0, 0, 0.3);
+}
+.precio-producto{
+    font-size: 15px;
+    color: coral;
+}
+.lista-carrito-comprar{
+    margin-top: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    float: right;
+}
+.boton-eliminar{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: red;
+}
+
+@media screen and (max-width: 600px){
+    #contenedor-productos{
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

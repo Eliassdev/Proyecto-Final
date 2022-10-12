@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
+    <title>Tienda Online</title>
+</head>
+<body>
+    <header>
+
+        <h1 class="title"> Bienvenido/a a nuestra Tienda Online</h1>
+        
+    </header>
+
+    <main class="main">
+
+
+        <h2>En caso de no estar registrado lo podes hacer <a href="./pages/registrarte.html"> Aqui </a></h2>
+
+        <h3>Ingresa a la tienda</h3>
+
+        <form id="form_ingreso">
+            <label for="name"></label>
+            <input type="email" id="ingreso_usuarios" placeholder="Ingrese su email" required>
+            <br>
+            <label for="pass"></label>
+            <input type="password" id="ingreso_password" placeholder="Ingrese su contraseña">
+            <br>
+            <button type="submit">Ingresar</button>
+        </form>
+            <div id="error">
+
+
+            </div>
+
+    </main>
+
+    
+
+    <script src="preentrega2.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+[ 
+ 
+ {  
+     
+         "id" :  1 ,
+        "name" : "Nike AirMax",
+        "precio" : 11000,
+        "img" : "../images/nike.jpg",
+        "talle" : 40,
+        "stock" : 5,
+        "cantidad" : 1
+    } ,
+
+    
+    {   
+        "id" :  2 ,
+        "name" : "Adidas",
+        "precio" : 5000,
+        "img" : "../images/adidas.jpg",
+        "talle" : 43,
+        "stock" : 7,
+        "cantidad" : 1
+    },
+    {   
+        "id" :  3 ,
+        "name" : "Reebok",
+        "precio" : 7000,
+        "img" : "../images/reebok.jpg",
+        "talle" : 44,
+        "stock" : 2,
+        "cantidad" : 1
+    },
+    {   
+        "id" :  4 ,
+        "name" : "New Balance",
+        "precio" : 9000,
+        "img" : "../images/newbalance.jpg",
+        "talle" : 42,
+        "stock" : 4,
+        "cantidad" : 1
+
+    },
+    {   
+        "id" :  5 ,
+        "name" : "Fila",
+        "precio" : 8400,
+        "img" : "../images/fila.jpg",
+        "talle" : 41,
+        "stock" : 12,
+        "cantidad" : 1
+    },
+    {   
+        "id" :  6 ,
+        "name" : "Puma",
+        "precio" : 10700,
+        "img" : "../images/puma.jpg",
+        "talle" : 38,
+        "stock" : 5,
+        "cantidad" : 1
+
+    },
+    {   
+        "id" :  7 ,
+        "name" : "Converse",
+        "precio" : 5700,
+        "img" : "../images/converse.jpg",
+        "talle" : 34,
+        "stock" : 9,
+        "cantidad" : 1
+    },
+
+    {   
+        "id" :  8 ,
+        "name" : "Vans",
+        "precio" : 8670,
+        "img" : "../images/vans.jpg",
+        "talle" : 38,
+        "stock" : 1,
+        "cantidad" : 1
+    },
+
+    {   
+        "id" :  9 ,
+        "name" : "DC",
+        "precio" : 11700,
+        "img" : "../images/DC.jpg",
+        "talle" : 39,
+        "stock" : 10,
+        "cantidad" : 1
+    },
+
+    {   
+        "id" :  10 ,
+        "name" : "Nike Jordan",
+        "precio" : 12370,
+        "img" : "../images/NikeJordan.jpg",
+        "talle" : 40,
+        "stock" : 15,
+        "cantidad" : 1
+    },
+
+    {   
+        "id" :  11 ,
+        "name" : "Lacoste",
+        "precio" : 10250,
+        "img" : "../images/lacosteee.jpg",
+        "talle" : 45,
+        "stock" : 6,
+        "cantidad" : 1
+    },
+
+    {   
+        "id" :  12 ,
+        "name" : "Kappa",
+        "precio" : 4500,
+        "img" : "../images/kappa.jpg",
+        "talle" : 37,
+        "stock" : 3,
+        "cantidad" : 1
+    }
+
+    
+]
