@@ -71,6 +71,16 @@ const agregarCarrito = (producto) => {
               })
             return
         }
+        else{
+            Toastify({
+                text: "Se agrego producto al carrito",
+                className: "info",
+                style: {      
+                  background: "linear-gradient(to right, #00b09b, #96c93d)"
+                }
+            
+              }).showToast();
+        }
   
         const producto_seleccionado = data.find(function
             (producto_a_encontrar){ 
