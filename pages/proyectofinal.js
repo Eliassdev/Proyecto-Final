@@ -138,6 +138,7 @@ const botonComprar = document.getElementById("lista-carrito-comprar")
 
 botonComprar.addEventListener('click', () => {
 
+
     const total = carrito.reduce((acc, el) => acc + (el.precio * el.cantidad), 0)
      
     const totalaPagar = document.createElement("div");
@@ -161,5 +162,14 @@ const eliminarDelCarrito = (prodId) => {
     const indice = carrito.indexOf(item);
     carrito.splice(indice, 1);
 
+                Toastify({
+                text: "Se elimino un producto del carrito",
+                className: "info",
+                style: {      
+                  background: "linear-gradient(to right)"
+                }
+            
+              }).showToast();
+    
     actualizarcarrito();
 }

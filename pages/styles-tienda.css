@@ -31,7 +31,6 @@ body{
 }
 #contenedor-carrito{
     border: solid 1em red;
-
     width: 100%;
 
 
@@ -90,7 +89,7 @@ body{
 .boton-eliminar{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: red;
+    color: #e92323;
 }
 
 @media screen and (max-width: 600px){
@@ -105,4 +104,5 @@ body{
         margin-right: 10rem;
     }
 }
+
 

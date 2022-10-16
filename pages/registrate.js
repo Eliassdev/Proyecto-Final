@@ -47,7 +47,7 @@ form_registro.addEventListener("submit" , (e) => {
             
             icon: "succes",
             title: "Registro Exitoso",
-            footer:"Ir al inicio para : <a href='../preentrega2.html'> Ingresar </a>"
+            footer:"Ir al inicio para : <a href='../tiendaonline.html'> Ingresar </a>"
         
         }) : Swal.fire({
 
