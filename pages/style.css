@@ -11,6 +11,13 @@ html{
 
 
 /* ESTILOS DEL FORMULARIO DE REGISTRO */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    margin: 1rem;
+    padding: 1rem;
+}
 
 .titulo_registro{
     font-size:  3em;
@@ -23,15 +30,18 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    
 }
 #form_registro{
     margin-top: 2rem;
-    justify-content: center;
-    margin-left: 38rem;
+    flex-direction: column;
+    justify-content: center !important;
+    
+    
+   
 }
 .volver_inicio{
-
+    text-decoration: none;
     margin-top: 2rem;
     font-size: 2.5em;
 }
@@ -99,4 +109,43 @@ h3{
     font-family: sans-serif;
     font-size: 2em;
     width: 250px;
+}
+#nombre{
+    margin: 1rem;
+    align-items: center;
+}
+#registro_usuarios{
+    margin: 1rem;
+}
+#registro_password{
+    margin: 1rem;
+}
+#edad{
+    margin: 1rem;
+}
+@media screen and (max-width: 600px){
+    .titulo_registro{
+        text-align: center;
+        
+    }
+    .contenedor-registro #form_registro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    
+    }
+    #nombre{
+        margin: 1rem;
+        align-items: center;
+    }
+    #registro_usuarios{
+        margin: 1rem;
+    }
+    #registro_password{
+        margin: 1rem;
+    }
+    #edad{
+        margin: 1rem;
+    }
 }

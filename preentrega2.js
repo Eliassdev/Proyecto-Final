@@ -5,7 +5,7 @@ let form_ingreso = document.getElementById("form_ingreso");
 let ingreso_usuarios = document.getElementById("ingreso_usuarios");
 let ingreso_password = document.getElementById("ingreso_password");
 
-let error = document.getElementById("error")
+let error = document.getElementById("error");
 let usuarios = localStorage.getItem("usuarios");
 if(usuarios == null){
 
